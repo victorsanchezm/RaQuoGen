@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	var returnedQuote, returnedAuthor;
+	var returnedQuote, returnedAuthor, returnedCategory;
 	
     function getRaQuote(){
 		$.ajax({
